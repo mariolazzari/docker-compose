@@ -5,3 +5,5 @@ services:
     build: .
   database: 
     image: "mysql"
+    environment:
+      MYSQL_ROOT_PASSWORD: password
